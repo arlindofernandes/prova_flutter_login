@@ -53,7 +53,6 @@ class _LoginPageState extends State<LoginPage> {
         showMsgError('O campo senha não pode ter menos que dois caracteres');
         return true;
       case ValidationResultPassword.valid:
-        showMsgError('O campo senha não pode ter menos que dois caracteres');
         return false;
     }
   }

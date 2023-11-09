@@ -23,7 +23,7 @@ class Validation {
     }
   }
 
-  static ValidationResultPassword validatePassword(String text) {
+  static ValidationResultPassword   validatePassword(String text) {
     if (text.isEmpty) {
       return ValidationResultPassword.empty;
     } else if (text.endsWith(' ')) {
